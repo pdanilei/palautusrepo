@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.5.1 (Python 3.14.3 on win32)" generated="2026-11-15T18:03:52.704822" rpa="false" schemaversion="5">
+<suite id="s1" name="Tests" source="C:\kurssit\ohtuvarasto\palautusrepo\osa3\hello-robot\src\tests">
+<suite id="s1-s1" name="Increase Counter" source="C:\kurssit\ohtuvarasto\palautusrepo\osa3\hello-robot\src\tests\increase_counter.robot">
+<test id="s1-s1-t1" name="Increase Counter Once" line="5">
+<kw name="Counter Value Should Be" owner="CounterLibrary">
+<arg>0</arg>
+<status status="PASS" start="2026-11-15T18:03:52.944731" elapsed="0.000333"/>
+</kw>
+<kw name="Increase Counter" owner="CounterLibrary">
+<status status="PASS" start="2026-11-15T18:03:52.945286" elapsed="0.000183"/>
+</kw>
+<kw name="Counter Value Should Be" owner="CounterLibrary">
+<arg>1</arg>
+<status status="PASS" start="2026-11-15T18:03:52.945608" elapsed="0.000144"/>
+</kw>
+<status status="PASS" start="2026-11-15T18:03:52.943179" elapsed="0.002744"/>
+</test>
+<test id="s1-s1-t2" name="Increase Counter Many Times" line="10">
+<kw name="Counter Value Should Be" owner="CounterLibrary">
+<arg>0</arg>
+<status status="PASS" start="2026-11-15T18:03:52.947030" elapsed="0.000235"/>
+</kw>
+<kw name="Increase Counter" owner="CounterLibrary">
+<status status="PASS" start="2026-11-15T18:03:52.947473" elapsed="0.000183"/>
+</kw>
+<kw name="Increase Counter" owner="CounterLibrary">
+<status status="PASS" start="2026-11-15T18:03:52.947798" elapsed="0.000117"/>
+</kw>
+<kw name="Increase Counter" owner="CounterLibrary">
+<status status="PASS" start="2026-11-15T18:03:52.948024" elapsed="0.000104"/>
+</kw>
+<kw name="Counter Value Should Be" owner="CounterLibrary">
+<arg>3</arg>
+<status status="PASS" start="2026-11-15T18:03:52.948234" elapsed="0.000121"/>
+</kw>
+<status status="PASS" start="2026-11-15T18:03:52.946305" elapsed="0.002223"/>
+</test>
+<test id="s1-s1-t3" name="Increment Counter By Amount" line="17">
+<kw name="Counter Value Should Be" owner="CounterLibrary">
+<arg>0</arg>
+<status status="PASS" start="2026-11-15T18:03:52.949437" elapsed="0.000233"/>
+</kw>
+<kw name="Increment Counter By" owner="CounterLibrary">
+<arg>5</arg>
+<status status="PASS" start="2026-11-15T18:03:52.949860" elapsed="0.000211"/>
+</kw>
+<kw name="Counter Value Should Be" owner="CounterLibrary">
+<arg>5</arg>
+<status status="PASS" start="2026-11-15T18:03:52.950208" elapsed="0.000124"/>
+</kw>
+<status status="PASS" start="2026-11-15T18:03:52.948857" elapsed="0.001630"/>
+</test>
+<status status="PASS" start="2026-11-15T18:03:52.931326" elapsed="0.019855"/>
+</suite>
+<status status="PASS" start="2026-11-15T18:03:52.708108" elapsed="0.244119"/>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Tests" id="s1" pass="3" fail="0" skip="0">Tests</stat>
+<stat name="Increase Counter" id="s1-s1" pass="3" fail="0" skip="0">Tests.Increase Counter</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
